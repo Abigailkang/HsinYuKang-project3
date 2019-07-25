@@ -113,6 +113,30 @@ img {
 	padding: 20px;
 
 }
+
+
+/*animation*/
+
+#footer .logo{
+	animation:rotate-gogoro 5s ease-in infinite alternate;
+}
+@keyframes rotate-gogoro {
+	0%{transform:rotate(0deg);
+		left:350px;
+
+	}
+	100%{transform:rotate(730deg);
+		left:900px;
+	}
+}
+
+
+#footer .logo:hover{
+	animation-play-state:paused;
+}
+
+/*--------------anm--------------------*/
+
 #footer .social-media {
 	float: right;
 }
